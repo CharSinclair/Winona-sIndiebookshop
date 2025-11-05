@@ -1,0 +1,115 @@
+/* My Custom CSS */
+
+
+/* universal selector*/
+
+* {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    list-style: none;
+    }
+
+
+/* Nav Styles*/
+.nav{
+    text-align: center;}
+        
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FDFBFF;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #FDFBFF;
+    }
+        
+    
+
+/* Link Styles*/
+
+a:link, a:visited {
+    color: #3A2A66;
+}
+a:focus, a:hover, a:active {
+    color:#FDFBFF;
+}
+a{text-decoration: none;
+}
+
+
+body{
+    background-color: #C5B8FD;
+    padding-top: 25px;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    text-align: center;
+    }
+
+
+
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;/* affects the footer */
+    height: 300px;
+    width: 100%; 
+}
+    
+.col{
+        width: 100%
+    }
+
+.p-2{
+    width: 100%
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style*/
+
+footer{
+    color: #3A2A66;
+    text-align: center;
+    font-size:15px; 
+    padding-top: 15px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+
+
+
+
