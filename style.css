@@ -1,5 +1,12 @@
 /* My Custom CSS */
 
+/* color hex codes 
+#FDFBFF- off white
+#3A2A66- dark purple
+#C5B8FD- lavender
+
+
+
 
 /* universal selector*/
 
@@ -20,10 +27,14 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #FDFBFF;
+display: flex;
+    justify-content: center;
+    
+
 }
 
-ul li {
-  float: right;
+nav ul li {
+  float: left;
 }
 
 ul li a {
@@ -38,7 +49,7 @@ ul li a:hover {
   background-color: #FDFBFF;
     }
         
-    
+
 
 /* Link Styles*/
 
@@ -46,10 +57,12 @@ a:link, a:visited {
     color: #3A2A66;
 }
 a:focus, a:hover, a:active {
-    color:#FDFBFF;
+    color:#C5B8FD;
 }
 a{text-decoration: none;
 }
+
+
 
 
 body{
@@ -81,35 +94,20 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Style*/
 
-footer{
+.footer-socials{
     color: #3A2A66;
+    background-color:#FDFBFF;
     text-align: center;
     font-size:15px; 
-    padding-top: 15px;
+    padding-top: 150px;
     padding-right:15px;
     padding-left: 15px;
+    justify-content: center;
+    display: flex;
+    float: center;
 }
-
 
 
 
